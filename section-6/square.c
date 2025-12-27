@@ -8,10 +8,8 @@ int main(void) {
     scanf("%d", &n);
 
     // Create the table of squares
-    int i = 1;
-    while (i <= n) {
+    for (int i = 1; i <= n; i++) {
         printf("%d\t%10d\n", i, i * i);
-        i++;
     }
 
     return 0;
